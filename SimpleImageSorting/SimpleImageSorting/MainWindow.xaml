@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleImageSorting"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="1080" Width="1920">
+
     <Grid>
-        
+        <Image x:Name="image" HorizontalAlignment="Center" VerticalAlignment="Center" Loaded="image_Loaded"/>
     </Grid>
 </Window>
